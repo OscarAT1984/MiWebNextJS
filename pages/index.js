@@ -1,23 +1,25 @@
 import "tailwindcss/tailwind.css";
+import Image from 'next/image'
 
 function HomePage() {
-  return <div>
-<body class="m-4">
-
+    return <div>
+{/* INICIA EL PANEL DE NAVEGACION */}
+        
+<body class="m-4" >
     <nav className="flex items-center justify-between flex-wrap bg-gray-700 p-4 rounded-md">
     <div className="flex items-center flex-shrink-0 text-white mr-6">
-      <svg className="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
-      <span className="font-semibold text-xl tracking-tight">Mi Web</span>
+    <span className="font-semibold text-xl tracking-tight"> Oscar Armando Tellez Covarubias  <br />Frontend Developer | Python Dev</span> 
     </div>
-  </nav>
-
+    </nav>
+            
+{/* FINALIZA EL PANEL DE NAVEGACION */}
+            
+{/* PRINCIPIO WEB PRESENTACION */}
   <div className="w-full">
   <nav className="bg-white shadow-lg">
       <div className="md:flex items-center justify-between py-2 px-8 md:px-12">
           <div className="flex justify-between items-center">
-             <div className="text-2xl font-bold text-gray-800 md:text-3xl">
-                  <a href="#">Mi Web</a>
-             </div>
+             
               <div className="md:hidden">
                   <button type="button" className="block text-gray-800 hover:text-gray-700 focus:text-gray-700 focus:outline-none">
                       <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -37,24 +39,27 @@ function HomePage() {
   <div className="flex bg-white" style={{height:'600px;'}}>
       <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
           <div>
-              <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">Sitio para texto sin definir <span className="text-indigo-600">Oscar</span></h2>
-              <p className="mt-2 text-sm text-gray-500 md:text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis commodi cum cupiditate ducimus, fugit harum id necessitatibus odio quam quasi, quibusdam rem tempora voluptates. Cumque debitis dignissimos id quam vel!</p>
+              <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">Quien es <span className="text-indigo-600">Oscar Tellez?</span></h2>
+              <p className="mt-2 text-sm text-gray-500 md:text-base">Formar parte del programa platzi master me abrio la puerta al desarrollo Frontend y python </p>
           </div>
       </div>
-      <div className="hidden lg:block lg:w-1/2" style={{clip_path:'polygon(10% 0, 100% 0%, 100% 100%, 0 100%)'}}>
-          <div className="h-full object-cover" style={{background_image: 'url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80)'}}>
-              <div className="h-full bg-black opacity-25"></div>
+      <div className="hidden lg:block lg:w-1/2 rounded-l-lg">
+            <div className="h-full object-cover ">
+                         <Image className="rounded-tl-lg" src="/image1.jpg" alt="me" width="900" height="300" />
           </div>
       </div>
   </div>
 </div>
-
-
+{/* FINAL WEB PRESENTACION*/}
+            
+{/* EMPIEZA LAS CARDS*/}
+            
+{/* CARD 1*/}
 <div className="container my-12 mx-auto px-4 md:px-12">
   <div className="flex flex-wrap -mx-1 lg:-mx-4">
-
+{/*COLUMNA*/}
       <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-          
+{/*ARTICULO*/}
           <article className="overflow-hidden rounded-lg shadow-lg">
               <a href="#">
                   <img alt="Placeholder" class="block h-auto w-full" src="https://picsum.photos/600/400/?random"/>
@@ -82,10 +87,12 @@ function HomePage() {
                   </a>
               </footer>
           </article>
-      </div>
-
+</div>
+                    
+{/* CARD 2*/}
+{/*COLUMNA*/}  
 <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-        
+{/*ARTICULO*/}
         <article className="overflow-hidden rounded-lg shadow-lg">
             <a href="#">
                 <img alt="Placeholder" className="block h-auto w-full" src="https://picsum.photos/600/400/?random" />
@@ -115,7 +122,10 @@ function HomePage() {
         </article>
     </div>
 
+{/* CARD 3*/}
+{/*COLUMNA*/} 
 <div className="my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+{/*ARTICULO*/}                   
   <article className="overflow-hidden rounded-lg shadow-lg">
       <a href="#">
           <img alt="Placeholder" className="block h-auto w-full" src="https://picsum.photos/600/400/?random"/>
@@ -147,14 +157,18 @@ function HomePage() {
 </div>
 </div>
 </div>
-
 <article>
+{/* TERMINA LAS CARDS*/}           
+                
+{/* INICIA TEXTO SOBRE TECNOLOGIAS*/} 
 <div className="mt-10 text-center">
 <p className="text-2xl">Que Tecnologias Son las Que Conosco</p>
 <p className="text-lg">Las tecnologias que trabajo actualmente son HTML CSS JS TAILWINDCSS REACT.JS NODE.JS</p>
 </div>
 </article>
-
+{/* TERMINA TEXTO SOBRE TECNOLOGIAS*/} 
+            
+{/*INICIA CARD INTERMEDIA DE LA PAGINA*/} 
 <div>
   <div className="bg-gray-100 lg:py-12 lg:flex lg:justify-center">
       <div className="bg-white lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
@@ -171,8 +185,9 @@ function HomePage() {
       </div>
   </div> 
 </div>
+{/*TERMINA CARD INTERMEDIA DE LA PAGINA*/} 
 
-
+{/*INICIA EL FOOTER DE LA PAGINA*/} 
 <footer>
 <div className="w-full  bg-grey-lighter p-8 mt-10  bg-gray-700">
   <div className="sm:flex mb-4 text-white">
@@ -222,11 +237,12 @@ function HomePage() {
       <div className="text-red-light mb-2">Contactame</div>
       <p className="text-grey-darker leading-normal">Texto con los datos mios de contacto aqui van a ir </p>
   </div>
-
 </div>
 </div>
 </footer>
-
+{/*TERMINA EL FOOTER DE LA PAGINA*/} 
+            
+{/*INICIA SUBFOOTER*/} 
 <div className="flex items-center justify-between my-4 bg-gray-800">
   <p className="text-white">Todos los Derechos Reservados</p>
   <p className="inline-flex text-white px-2 pt-6">
@@ -254,7 +270,7 @@ function HomePage() {
       </a>
   </div>
 </div>
-
+{/*TERMINA SUBFOOTER*/} 
 </body>
 </div>
 }
