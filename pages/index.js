@@ -40,7 +40,7 @@ function HomePage() {
       <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
           <div>
               <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">Quien es <span className="text-indigo-600">Oscar Tellez?</span></h2>
-              <p className="mt-2 text-sm text-gray-500 md:text-base">Comenze en el mundo de la  tecnologia en 2018 con la plataforma de platzi  cursos online, ahi fui adquiriendo nuevos conocimientos como  javascript e introduccion a machine learning entre otras tecnologias, posteriormente entre al programa platzi master en el 2020 y me especialize como frontend developer trabajando con css html javascript y react.js actualmente me encuentro estudiando para poder ser data science y python dev</p>
+              <p className="mt-2 text-sm text-gray-500 md:text-base">Comenze en el mundo de la  tecnologia en 2018 con la plataforma de platzi  cursos online, ahi fui adquiriendo nuevos conocimientos como  javascript e introduccion a machine learning entre otras tecnologias, posteriormente entre al programa platzi master en el 2020 y me especialize como frontend developer trabajando con css html javascript y react.js actualmente me encuentro estudiando para poder ser data science y python dev.</p>
           </div>
       </div>
       <div className="hidden lg:block lg:w-1/2 rounded-l-lg">
@@ -187,7 +187,7 @@ function HomePage() {
                 <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
                          
               <h2 className="text-3xl text-gray-800 font-bold">Un Poco de  <span className="text-indigo-600">Mi</span></h2>
-              <p className="mt-4 text-gray-600">Soy un apasionado de la Tecnologia  me gusta mucho aprender cosas nuevas. me gusta leer y ademas jugar en la pc, mi deporte favorito es el futbol americano mi equipo los patriotas de nueva inglaterra, ademas de aprender todo sobre front una de mis metas a largo plazo es ser Data Science.</p>
+              <p className="mt-4 text-gray-600">Soy un apasionado de la Tecnologia  me gusta mucho aprender cosas nuevas. Me gusta leer y ademas jugar en la pc, mi deporte favorito es el futbol americano mi equipo los patriotas de nueva inglaterra, ademas de aprender todo sobre front una de mis metas a largo plazo es ser Data Science.</p>
               {/* <div className="mt-8">
                   <a href="#" className="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Saber Mas..</a>
               </div> */}
