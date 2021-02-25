@@ -29,18 +29,18 @@ function HomePage() {
                   </button>
               </div>
           </div>
-          <div className="flex-col md:flex-row hidden md:block -mx-2">
+          {/* <div className="flex-col md:flex-row hidden md:block -mx-2">
               <a href="#" className="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Inicio</a>
               <a href="#" className="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">Acerca De.</a>
               <a href="#" className="text-gray-800 rounded hover:bg-gray-900 hover:text-gray-100 hover:font-medium py-2 px-2 md:mx-2">contacto</a>
-          </div>
+          </div> */}
       </div>
   </nav>
   <div className="flex bg-white" style={{height:'600px;'}}>
       <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
           <div>
               <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">Quien es <span className="text-indigo-600">Oscar Tellez?</span></h2>
-              <p className="mt-2 text-sm text-gray-500 md:text-base">Formar parte del programa platzi master me abrio la puerta al desarrollo Frontend y python </p>
+              <p className="mt-2 text-sm text-gray-500 md:text-base">Comenze en el mundo de la  tecnologia en 2018 con la plataforma de platzi  cursos online, ahi fui adquiriendo nuevos conocimientos como  javascript e introduccion a machine learning entre otras tecnologias, posteriormente entre al programa platzi master en el 2020 y me especialize como frontend developer trabajando con css html javascript y react.js actualmente me encuentro estudiando para poder ser data science y python dev</p>
           </div>
       </div>
       <div className="hidden lg:block lg:w-1/2 rounded-l-lg">
@@ -162,8 +162,8 @@ function HomePage() {
                 
 {/* INICIA TEXTO SOBRE TECNOLOGIAS*/} 
 <div className="mt-10 text-center">
-<p className="text-2xl">Que Tecnologias Son las Que Conosco</p>
-<p className="text-lg">Las tecnologias que trabajo actualmente son HTML CSS JS TAILWINDCSS REACT.JS NODE.JS</p>
+<p className="text-2xl">Que Tecnologias Conosco</p>
+<p className="text-lg">Las tecnologias que trabajo actualmente son HTML | CSS | JAVASCRIPT | NEXT.JS | REACT.JS | TAILWINDCSS | PYTHON | DJANGO | FLASK |</p>
 </div>
 </article>
 {/* TERMINA TEXTO SOBRE TECNOLOGIAS*/} 
@@ -177,7 +177,7 @@ function HomePage() {
           </div>
           <div className="py-12 px-6 max-w-xl lg:max-w-5xl lg:w-1/2">
               <h2 className="text-3xl text-gray-800 font-bold">Un Poco de  <span className="text-indigo-600">Mi</span></h2>
-              <p className="mt-4 text-gray-600">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem modi reprehenderit vitae exercitationem aliquid dolores ullam temporibus enim expedita aperiam mollitia iure consectetur dicta tenetur, porro consequuntur saepe accusantium consequatur.</p>
+              <p className="mt-4 text-gray-600">Soy un apasionado de la Tecnologia  me gusta mucho aprender cosas nuevas. me gusta leer y ademas jugar en la pc, mi deporte favorito es el futbol americano mi equipo los patriotas de nueva inglaterra, ademas de aprender todo sobre front una de mis metas a largo plazo es ser Data Science.</p>
               <div className="mt-8">
                   <a href="#" className="bg-gray-900 text-gray-100 px-5 py-3 font-semibold rounded">Saber Mas..</a>
               </div>
@@ -194,48 +194,41 @@ function HomePage() {
 <div className="sm:w-1/4 h-auto">
     <div className="text-orange mb-2">Links a Tecnologias Web</div>
     <ul className="list-reset leading-normal">
-        <li className="hover:text-orange text-grey-darker">React</li>
-        <li className="hover:text-orange text-grey-darker">Tailwind</li>
-        <li className="hover:text-orange text-grey-darker">bootstrap</li>
-        <li className="hover:text-orange text-grey-darker">HTML</li>
+        <li className="hover:text-orange text-grey-darker"><a href="https://es.reactjs.org/">React.JS</a></li>
+        <li className="hover:text-orange text-grey-darker"><a href="https://tailwindcss.com/">TailwindCSS</a></li>
+        <li className="hover:text-orange text-grey-darker"><a href="https://nextjs.org/">Next.Js</a></li>
+        <li className="hover:text-orange text-grey-darker"><a href="https://htmlreference.io/">HTML</a></li>
     </ul>
 </div>
 <div className="sm:w-1/4 h-auto sm:mt-0 mt-8">
-    <div className="text-blue mb-2">Links sin definir</div>
+    <div className="text-blue mb-2">Links a Tecnologias Data Science</div>
     <ul className="list-reset leading-normal">
-        <li className="hover:text-blue text-grey-darker">Link 1</li>
-        <li className="hover:text-blue text-grey-darker">Link 2</li>
-        <li className="hover:text-blue text-grey-darker">Link 2</li>
+        <li className="hover:text-blue text-grey-darker"><a href="https://scikit-learn.org/stable/">Scikit-learn</a></li>
+        <li className="hover:text-blue text-grey-darker"><a href="https://www.tensorflow.org/?hl=es-419">TensorFlow</a></li>
+        <li className="hover:text-blue text-grey-darker"><a href="https://spark.apache.org/">Spark apache</a></li>
     </ul>
 
-  <div className="text-blue-light mb-2 mt-4">Links sin definir</div>
+  <div className="text-blue-light mb-2 mt-4">Links a Tecnologias Python</div>
     <ul className="list-reset leading-normal">
-        <li className="hover:text-blue-light text-grey-darker">Link 1</li>
-        <li className="hover:text-blue-light text-grey-darker">Link 2</li>
-        <li className="hover:text-blue-light text-grey-darker">Link 3</li>
+        <li className="hover:text-blue-light text-grey-darker"><a href="https://www.cocos.com/en/">Cocos2d</a></li>
+        <li className="hover:text-blue-light text-grey-darker"><a href="https://pandas.pydata.org/">Pandas</a></li>
+        <li className="hover:text-blue-light text-grey-darker"><a href="https://selenium-python.readthedocs.io/">Selenium</a></li>
     </ul>
 
 </div>
 <div className="sm:w-1/4 h-auto sm:mt-0 mt-8">
-          <div className="text-green-dark mb-2">Links sin definir</div>
+          <div className="text-green-dark mb-2">Link a mi repositoria Git Hub</div>
     <ul className="list-reset leading-normal">
-        <li className="hover:text-green-dark text-grey-darker">Link 1</li>
-        <li className="hover:text-green-dark text-grey-darker">Two</li>
-        <li className="hover:text-green-dark text-grey-darker">Three</li>
-    </ul>
-
-  <div className="text-green-light mb-2 mt-4">Links sin definir</div>
-    <ul className="list-reset leading-normal">
-        <li className="hover:text-green-light text-grey-darker">Link 1</li>
-        <li className="hover:text-green-light text-grey-darker">Link 2</li>
-        <li className="hover:text-green-light text-grey-darker">Link 3</li>
+        <li className="hover:text-green-dark text-grey-darker"><a href="https://github.com/OscarAT1984">Mi GitHub</a></li>
+        
     </ul>
 
 
 </div>
   <div className="sm:w-1/2 sm:mt-0 mt-8 h-auto">
       <div className="text-red-light mb-2">Contactame</div>
-      <p className="text-grey-darker leading-normal">Texto con los datos mios de contacto aqui van a ir </p>
+        <p className="text-grey-darker leading-normal">Correo: zaroscar1984@gmail.com</p>
+        <p className="text-grey-darker leading-normal">Cel: (52)5520908032</p>
   </div>
 </div>
 </div>
