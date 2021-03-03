@@ -8,7 +8,7 @@ function HomePage() {
 <body class="m-4" >
     <nav className="flex items-center justify-between flex-wrap bg-gray-700 p-4 rounded-md">
     <div className="flex items-center flex-shrink-0 text-white mr-6">
-    <span className="font-semibold text-xl tracking-tight"> Oscar Armando Tellez Covarubias  <br />Frontend Developer | Python Dev</span> 
+    <span className="font-semibold text-xl tracking-tight"> Oscar Armando Tellez Covarrubias  <br />Frontend Developer | Python Dev</span> 
     </div>
     </nav>
             
@@ -40,7 +40,7 @@ function HomePage() {
       <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
           <div>
               <h2 className="text-3xl font-semibold text-gray-800 md:text-4xl">Quien es <span className="text-indigo-600">Oscar Tellez?</span></h2>
-              <p className="mt-2 text-sm text-gray-500 md:text-base">Comenze en el mundo de la  tecnologia en 2018 con la plataforma de platzi  cursos online, ahi fui adquiriendo nuevos conocimientos como  javascript e introduccion a machine learning entre otras tecnologias, posteriormente entre al programa platzi master en el 2020 y me especialize como frontend developer trabajando con css html javascript y react.js actualmente me encuentro estudiando para poder ser data science y python dev.</p>
+              <p className="mt-2 text-sm text-gray-500 md:text-base">Comencé en el mundo de la  tecnología en 2018 con la plataforma de platzi  cursos online, ahí fui adquiriendo nuevos conocimientos como  Javascript e introducción a Machine Learning entre otras tecnologías, posteriormente entre al programa Platzi Master en el 2020 y me especialice como Frontend Developer trabajando con CSS, HTML, JAVASCRIPT, REACT.JS. actualmente me encuentro estudiando para poder ser Data Science y Python Dev.</p>
           </div>
       </div>
       <div className="hidden lg:block lg:w-1/2 rounded-l-lg">
